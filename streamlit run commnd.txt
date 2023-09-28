@@ -1,0 +1,1 @@
+streamlit run "‪C:\Users\91834\Desktop\New folder\PCOS_DetectionSystem.py"
