@@ -11,7 +11,7 @@ import streamlit as st
 
 
 # loading the saved model
-loaded_model = pickle.load(open('C:/Users/91834/Desktop/New folder/pcos_model.sav', 'rb'))
+loaded_model = pickle.load(open('pcos_model.sav', 'rb'))
 
 
 # creating a function for Prediction
@@ -49,13 +49,13 @@ def main():
     Weight = st.text_input('Weight')
     Height = st.text_input('Height')
     BMI = st.text_input('Body Mass Index')
-    Blood_Group = st.text_input('Blood Group A-11, B-12, C-13, D-14, O-15')
+    Blood_Group = st.text_input('Blood Group A- 11, B-12, C-13, D-14, O-15')
     Pulse_rate =st.text_input('Pulse Rate')
     RR =st.text_input('Breaths per min')
     Hb =st.text_input('Haemoglobin range')
     Cycle =st.text_input('Cycle')
     Cycle_length =st.text_input('Menstrual Cycle Length')
-    Marriage_Status =st.text_input('Marriage status')
+    Marriage_Status =st.text_input('Marriage status 0- no, 1- yes')
     Pregnant =st.text_input('Preganant 0- no, 1- yes')
     No_of_abortions =st.text_input('No. of abortions')
     Hip =st.text_input('Hip(inch)')
