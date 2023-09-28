@@ -4,14 +4,13 @@ Created on Thu Sep 28 13:07:22 2023
 
 @author: hero2004
 """
-
 import numpy as np
 import pickle
 import streamlit as st
 
 
 # loading the saved model
-loaded_model = pickle.load(open('pcos_model.sav', 'rb'))
+loaded_model = pickle.load(open('pcos_model.sav'))
 
 
 # creating a function for Prediction
